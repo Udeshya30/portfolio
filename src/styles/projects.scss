@@ -1,0 +1,80 @@
+.projects-section {
+  background: #ffffff;
+  padding: 80px 0;
+
+  .page-title {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #111;
+  }
+
+  .project-card {
+    background: #fff;
+    border-radius: 18px;
+    padding: 30px 25px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+    border: 1px solid #f1f1f1;
+
+    &:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 14px 35px rgba(0, 0, 0, 0.08);
+    }
+
+    h5 {
+      font-weight: 600;
+      color: #111;
+      margin-bottom: 10px;
+      font-size: 1.1rem;
+    }
+
+    .description {
+      color: #555;
+      font-size: 0.95rem;
+      line-height: 1.6;
+      margin-bottom: 15px;
+      flex-grow: 1;
+    }
+
+    .tech-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+
+      span {
+        background: #f2f2f2;
+        padding: 4px 10px;
+        border-radius: 12px;
+        font-size: 0.8rem;
+        color: #333;
+        font-weight: 500;
+      }
+    }
+
+    .card-footer {
+      margin-top: 15px;
+
+      button {
+        color: #007aff;
+        font-weight: 500;
+        text-decoration: none;
+        padding: 0;
+
+        &:hover {
+          text-decoration: underline;
+          color: #0056b3;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .project-card {
+      padding: 25px 20px;
+    }
+  }
+}

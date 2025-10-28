@@ -1,0 +1,59 @@
+.skills-section {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+
+  .section-header {
+    h2 {
+      font-weight: 700;
+      color: #222;
+      font-size: 2.2rem;
+    }
+    p {
+      color: #666;
+      font-size: 1.1rem;
+    }
+  }
+
+  .skill-category {
+    .category-title {
+      font-weight: 600;
+      margin-bottom: 25px;
+      color: #0d6efd;
+      border-left: 4px solid #0d6efd;
+      padding-left: 10px;
+    }
+  }
+
+  .skill-card {
+    transition: all 0.3s ease;
+    border-radius: 12px;
+    background-color: #fff;
+
+    &:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .icon-wrapper {
+      font-size: 2.5rem;
+      color: #0d6efd;
+      margin-bottom: 12px;
+    }
+
+    h5 {
+      font-size: 1.1rem;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .progress-bar-custom {
+      height: 10px;
+      border-radius: 5px;
+      background-color: #e9ecef;
+
+      .progress-bar {
+        background-color: #0d6efd;
+      }
+    }
+  }
+}

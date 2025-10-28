@@ -1,0 +1,57 @@
+.contact-section {
+  background-color: #ffffff;
+  color: #212529;
+
+  h1, h5 {
+    font-weight: 600;
+  }
+
+  .contact-card {
+    border-radius: 16px;
+    background: #f9f9f9;
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+    }
+
+    .form-control {
+      border-radius: 10px;
+      border: 1px solid #dcdcdc;
+      padding: 12px 14px;
+      font-size: 0.95rem;
+      &:focus {
+        border-color: #0071e3;
+        box-shadow: 0 0 0 0.15rem rgba(0, 113, 227, 0.25);
+      }
+    }
+
+    label {
+      font-weight: 500;
+      color: #555;
+    }
+
+    button {
+      border-radius: 12px;
+      background-color: #000;
+      &:hover {
+        background-color: #333;
+      }
+    }
+  }
+
+  .map-container {
+    border-radius: 16px;
+    overflow: hidden;
+    height: 400px;
+  }
+
+  a {
+    color: #0071e3;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

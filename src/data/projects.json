@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "django-rag-chatbot",
+    "title": "Django RAG Chatbot",
+    "subtitle": "LLM verification with FAISS + sentence-transformers",
+    "stack": ["Django", "Python", "FAISS", "Mistral"],
+    "description": "A modular AI assistant with vector search and LLM-based verification layer.",
+    "image": "/images/rag_chatbot.png"
+  },
+  {
+    "slug": "worklytic-ai",
+    "title": "Worklytic AI Assistant",
+    "subtitle": "Draggable assistant with Pomodoro and stress relief",
+    "stack": ["React", "JS", "Frontend"],
+    "description": "Interactive floating AI companion for productivity and wellness.",
+    "image": "/images/worklytic.png"
+  }
+]
