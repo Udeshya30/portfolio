@@ -30,7 +30,7 @@ const PlayStoreApps = () => {
   ];
 
   return (
-    <section className="playstore-section" id="apps">
+    <section className="playstore-section container" id="apps">
       <h2 className="section-title">My Play Store Apps</h2>
       <div className="apps-grid">
         {apps.map((app, index) => (

@@ -1,3 +1,5 @@
+@import "./variables.scss";
+
 .about-section {
   background: #ffffff;
   color: #212529;
@@ -24,7 +26,7 @@
     background-color: #f9f9f9;
 
     h5 {
-      color: #0071e3;
+      color: $primary;
       font-weight: 600;
       margin-bottom: 0.5rem;
     }
@@ -55,7 +57,7 @@
       background-color: #e5e7eb;
 
       .progress-bar {
-        background-color: #0071e3;
+        background-color: $primary;
       }
     }
   }
@@ -64,7 +66,7 @@
     background: #f7f8fa;
     border-radius: 16px;
     h2 {
-      color: #0071e3;
+      color: $primary;
       font-weight: 600;
     }
 
@@ -84,7 +86,7 @@
         top: 0;
         bottom: 0;
         width: 3px;
-        background-color: #0071e3;
+        background-color: $primary;
         transform: translateX(-50%);
         border-radius: 2px;
       }
@@ -118,7 +120,7 @@
 
           span {
             font-size: 0.9rem;
-            color: #0071e3;
+            color: $primary;
           }
 
           p {
@@ -129,7 +131,7 @@
 
         .tech-box {
           h6 {
-            color: #0071e3;
+            color: $primary;
             font-weight: 600;
             margin-bottom: 0.6rem;
           }

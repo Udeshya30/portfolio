@@ -1,3 +1,5 @@
+@import "./variables.scss";
+
 .playstore-section {
   padding: 5rem 2rem;
   background: #f9f9f9;
@@ -8,7 +10,7 @@
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 3rem;
-    color: #0071e3; // Apple blue accent for light theme
+    color: $primary;
   }
 
   .apps-grid {
@@ -45,7 +47,7 @@
       h3 {
         font-size: 1.3rem;
         margin-bottom: 0.8rem;
-        color: #0071e3;
+        color: $primary;
         font-weight: 600;
       }
 

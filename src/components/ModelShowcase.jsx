@@ -1,5 +1,4 @@
-// src/components/ModelShowcase.js
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import "../styles/modelShowcase.scss";
 import modelAI from "../assets/model.glb";
 import modelVR from "../assets/model2.glb";
@@ -29,6 +28,20 @@ const ModelShowcase = () => {
   ];
 
   const [activeModel, setActiveModel] = useState(models[0]);
+  const modelRef = useRef(null);
+
+  const handleZoom = (factor) => {
+    const viewer = modelRef.current;
+    if (!viewer) return;
+
+    // Adjust zoom distance
+    const cameraOrbit = viewer.getCameraOrbit();
+    const newRadius = Math.max(
+      1,
+      Math.min(cameraOrbit.radius * factor, 30) // Clamp zoom range
+    );
+    viewer.cameraOrbit = `${cameraOrbit.theta}rad ${cameraOrbit.phi}rad ${newRadius}m`;
+  };
 
   return (
     <section className="model-showcase text-center py-5">
@@ -54,17 +67,23 @@ const ModelShowcase = () => {
 
       <div className="model-container">
         <model-viewer
+          ref={modelRef}
           src={activeModel.src}
           alt={activeModel.name}
           auto-rotate
           camera-controls
           rotation-per-second="20deg"
-          disable-zoom
           style={{ width: "100%", height: "500px" }}
           ar
           ar-modes="webxr scene-viewer quick-look"
           interaction-prompt="auto"
         ></model-viewer>
+
+        {/* Zoom Controls
+        <div className="zoom-controls">
+          <button onClick={() => handleZoom(0.9)}>+</button>
+          <button onClick={() => handleZoom(1.1)}>-</button>
+        </div> */}
       </div>
 
       <p className="model-description">{activeModel.description}</p>
