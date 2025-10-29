@@ -207,6 +207,7 @@ const Contact = () => {
   });
 
   const [status, setStatus] = useState("");
+  const scriptURL = import.meta.env.VITE_GOOGLE_SCRIPT_URL;
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -217,9 +218,7 @@ const Contact = () => {
     setStatus("Sending...");
 
     try {
-      await fetch(
-        "https://script.google.com/macros/s/AKfycbwBSVrM2IRgzVaNOOPtJKYuwmZPA1MtpnvNP9gEj6qpQQjctZKimjlu-Ot_RIDzkS4j/exec",
-        {
+      await fetch(scriptURL, {
           method: "POST",
           mode: "no-cors", // ✅ Needed for localhost or client-side call
           headers: { "Content-Type": "application/json" },
