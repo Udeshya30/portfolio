@@ -7,6 +7,8 @@ import project1 from "../assets/project2.jfif";
 import project2 from "../assets/project3.jfif";
 import ModelShowcase from "../components/ModelShowcase";
 import PlayStoreApps from "../components/PlayStoreApps";
+import ChatBotWidget from "../components/ChatBotWidget";
+
 
 const Home = () => {
   return (
@@ -37,6 +39,8 @@ const Home = () => {
         </Container>
       </Container>
 
+      <ChatBotWidget />
+      
       {/* About Preview */}
       <Container className="about-preview py-5">
         <Row className="align-items-center">
