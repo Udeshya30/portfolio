@@ -1,29 +1,29 @@
 import React, { useState, useRef } from "react";
 import "../styles/modelShowcase.scss";
-import modelAI from "../assets/model.glb";
+import modelAI from "../assets/mammoth.glb";
 import modelVR from "../assets/model2.glb";
-import modelApp from "../assets/model3.glb";
+import modelApp from "../assets/furniture.glb";
 
 const ModelShowcase = () => {
   const models = [
     {
       id: "ai",
-      name: "AI Assistant",
+      name: "Wooly Mammoth",
       src: modelAI,
-      description: "A 3D visualization of my AI-driven assistant architecture.",
+      description: "Wooly Mammoth 3D model demonstrating generative AI capabilities.",
     },
     {
       id: "vr",
-      name: "VR Training Scene",
+      name: "Hololens",
       src: modelVR,
       description:
-        "Interactive VR simulation model showcasing Unity-based training environments.",
+        "hololens 3D model showcasing immersive technology applications.",
     },
     {
       id: "app",
-      name: "Mobile App Prototype",
+      name: "Furniture",
       src: modelApp,
-      description: "A product concept demonstrating app UX in 3D space.",
+      description: "Furniture 3D model highlighting interactive app development.",
     },
   ];
 

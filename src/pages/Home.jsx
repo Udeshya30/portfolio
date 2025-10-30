@@ -4,7 +4,7 @@ import { Container, Row, Col, Button, Card } from "react-bootstrap";
 import profileImg from "../assets/profile.png";
 import aboutProfileImg from "../assets/profile.jpeg";
 import project1 from "../assets/project2.jfif";
-import project2 from "../assets/project3.jfif";
+import project2 from "../assets/medical-vr-2.png";
 import ModelShowcase from "../components/ModelShowcase";
 import PlayStoreApps from "../components/PlayStoreApps";
 import ChatBotWidget from "../components/ChatBotWidget";
