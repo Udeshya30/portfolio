@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/home.scss";
 import { Container, Row, Col, Button, Card } from "react-bootstrap";
-import profileImg from "../assets/profile.png";
+import profileImg from "../assets/profile (2).jpeg";
 import aboutProfileImg from "../assets/profile.jpeg";
 import project1 from "../assets/project2.jfif";
 import project2 from "../assets/medical-vr-2.png";
