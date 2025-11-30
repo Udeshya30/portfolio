@@ -174,7 +174,7 @@ const ChatBotWidget = () => {
         {
           type: "bot",
           text:
-            "Oops! Something went wrong. Please try again or contact me at 📧 udeshya.kumar30@email.com.",
+            "My AI bot is updating. Please try again later or contact me at udeshya.kumar30@gmail.com",
         },
       ]);
     } finally {
