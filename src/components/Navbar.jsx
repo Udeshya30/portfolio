@@ -1,12 +1,13 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Navbar as BsNavbar, Container, Nav } from "react-bootstrap";
+import "../styles/navbar.scss";
 
 const Navbar = () => {
   const location = useLocation();
 
   return (
-    <BsNavbar expand="lg" bg="dark" variant="dark" sticky="top">
+    <BsNavbar expand="lg" variant="dark" sticky="top" className="gradient-navbar">
       <Container>
         <BsNavbar.Brand as={Link} to="/">
           <strong>Udeshya Kumar</strong>
