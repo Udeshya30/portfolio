@@ -12,9 +12,9 @@ const About = () => {
       description:
         "Leading AI-driven development across offline assistants, RAG systems, and automation pipelines with Mistral and FastAPI.",
       projects: [
-        "💡 Offline AI Assistant (Mistral-7B + FAISS)",
-        "📄 SiteSyncAI – OCR + RAG construction discrepancy platform",
-        "🧠 Layered query system (cache → quick reply → LLM fallback)",
+        "Offline AI Assistant (Mistral-7B + FAISS)",
+        "SiteSyncAI – OCR + RAG construction discrepancy platform",
+        "Layered query system (cache → quick reply → LLM fallback)",
       ],
       tech: "FastAPI, Python, FAISS, LangChain, React, SQLite, JWT",
     },
@@ -25,9 +25,9 @@ const About = () => {
       description:
         "Built immersive AR/VR prototypes integrated with NLP and AI features, deployed on Quest 2 and HoloLens.",
       projects: [
-        "🎮 VR terrain visualization tool covering all of India",
-        "🏭 AR factory-floor SLAM-based placement app",
-        "🧩 AI-enhanced medical VR training simulation",
+        "VR terrain visualization tool covering all of India",
+        "AR factory-floor SLAM-based placement app",
+        "AI-enhanced medical VR training simulation",
       ],
       tech: "Unity 3D, C#, Python, XR Toolkit, OpenCV, Quest 2",
     },
@@ -37,7 +37,7 @@ const About = () => {
       duration: "2019 – 2020",
       description:
         "Delivered AR-based industrial and scanning solutions while exploring AI-driven interaction design.",
-      projects: ["📱 Vuforia-based scanner app for Kapzelet Technologies"],
+      projects: ["Vuforia-based scanner app for Kapzelet Technologies"],
       tech: "Unity, Vuforia, Android, Firebase",
     },
     {
@@ -46,7 +46,7 @@ const About = () => {
       duration: "Dec 2018 – Nov 2019",
       description:
         "Worked on CAD modeling, assembly design, and workflow optimization for industrial prototyping systems.",
-      projects: ["⚙️ CAD assemblies and simulation modeling"],
+      projects: ["CAD assemblies and simulation modeling"],
       tech: "SolidWorks, AutoCAD, Manufacturing Tools",
     },
     {
@@ -55,7 +55,7 @@ const About = () => {
       duration: "May 2018 – Nov 2018",
       description:
         "Performed precision checks on automotive components, reducing defect rate and improving first-pass yield.",
-      projects: ["🔧 Automotive part inspection and optimization"],
+      projects: ["Automotive part inspection and optimization"],
       tech: "Industrial QC Tools, Excel, Measurement Systems",
     },
   ];
