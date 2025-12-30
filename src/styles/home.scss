@@ -3,7 +3,7 @@
 .home-page {
   background-color: #fafafa;
   color: #1c1c1e;
-  font-family: "SF Pro Display", "Inter", "Helvetica Neue", sans-serif;
+  
 
   section {
     padding: 100px 0;
@@ -81,8 +81,8 @@
     .about-img {
       width: 100%;
       max-width: 400px;
-      // border-radius: 16px;
-      // box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+      border-radius: 16px;
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
       margin: 0 auto;
     }
 

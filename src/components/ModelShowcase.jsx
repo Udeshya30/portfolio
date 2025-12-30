@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import "../styles/modelShowcase.scss";
 import modelAI from "../assets/mammoth.glb";
-import modelVR from "../assets/model2.glb";
+import modelVR from "../assets/hololens.glb";
 import modelApp from "../assets/furniture.glb";
 
 const ModelShowcase = () => {
